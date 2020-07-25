@@ -9,7 +9,7 @@
 2. create PR to master 
 3. check CodeGuru for recommendations
 
-
+```
 Step 1: From your project repository, bring in the changes and test.
 
 git fetch origin
@@ -20,3 +20,6 @@ Step 2: Merge the changes and update on GitHub.
 git checkout master
 git merge --no-ff staging
 git push origin master
+
+```
+
