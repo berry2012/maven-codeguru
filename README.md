@@ -9,17 +9,12 @@
 2. create PR to master 
 3. check CodeGuru for recommendations
 
+### Push your changes
+
 ```
-Step 1: From your project repository, bring in the changes and test.
-
-git fetch origin
-git checkout -b staging origin/staging
-git merge master
-Step 2: Merge the changes and update on GitHub.
-
-git checkout master
-git merge --no-ff staging
-git push origin master
+    git add --all
+    git commit -m 'added sample files'
+    git push --set-upstream origin staging
 
 ```
 
